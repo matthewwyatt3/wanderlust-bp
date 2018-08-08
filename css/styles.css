@@ -1,4 +1,61 @@
 /* Global Styles */
+body {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "work sans", sans-sans-serif;
+}
+
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* navbar */
+.navbar {
+  background: transparent;
+  border: none;
+  transition: all 1s ease-in-out;
+  color: #ffffff;
+}
+
+
+/* body section */
+.hero {
+  background-image: url("../img/bg_3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s1 {
+  background-image: url("../img/bg_8.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s2 {
+  background-image: url("../img/bg_9.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s3 {
+  background-image: url("../img/bg_4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s4 {
+  background-image: url("../img/bg_6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* Small Screens */
 @media only screen and (min-width : 768px) {
